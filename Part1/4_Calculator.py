@@ -30,3 +30,12 @@
 
 # Write your code here:
 
+nr1 =int(input("write a number"))
+nr2 =int(input(" write another number"))
+operation=input()
+if (operation=="add"):
+    print (nr1+nr2)
+if (operation=="multiply"):
+    print (nr1*nr2)
+if (operation=="subtract"):
+    print (nr1-nr2)

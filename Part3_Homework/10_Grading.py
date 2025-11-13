@@ -7,3 +7,16 @@
 # 70-79: C
 # 60-69: D
 # Below 60: F
+
+grade = int(input("Enter the student's score: "))
+
+if grade >=90:
+    print("The grade is A")
+elif grade >=80:
+    print("The grade is B")
+elif grade >=70:
+    print("The grade is C")
+elif grade >=60:
+    print("The grade is D")
+else:
+    print("The grade is F")
